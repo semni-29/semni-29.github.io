@@ -1,0 +1,16 @@
+:root{
+  --color-bg:#F0F2F5;
+  --color-surface:#ffffff;
+  --color-text:#121212;
+  --color-muted:#666;
+  --color-primary:#21E1E1;
+  --color-border:#e1e1e1;
+  --overlay-dark:rgba(0,0,0,.40);
+  --container-max:1120px;
+  --radius:16px;
+  --shadow-1:0 8px 24px rgba(0,0,0,.08);
+  --shadow-2:0 12px 36px rgba(0,0,0,.16);
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:20px;
+  --space-6:24px; --space-7:32px; --space-8:40px; --space-9:56px; --space-10:72px;
+}
+

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>사업문의 – NEXTHING</title>
+  <link rel="stylesheet" href="css/vars.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="contact">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img class="brand-logo" src="assets/logo.png" alt="NEXTHING 로고" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="about.html" data-key="about">회사소개</a>
+        <a href="services.html" data-key="services">사업분야</a>
+        <a href="news.html" data-key="news">홍보자료</a>
+        <a href="contact.html" data-key="contact">사업문의</a>
+      </nav>
+      <button class="hamburger" id="btnMenu" aria-label="메뉴 열기"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-sm">
+      <div class="hero-bg" style="background-image:url('assets/hero_contact.png')"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title">EV 충전기 사업 파트너를 모십니다</h1>
+        <p class="hero-subtitle">간단한 정보를 남겨주세요. 빠르게 연락드리겠습니다.</p>
+      </div>
+    </section>
+
+  <section class="container contact-form">
+    <h3 class="section-title">사업 문의</h3>
+
+    <form id="inquiryForm" action="mailto:next.sys@nexthing.co.kr" method="post" enctype="text/plain">
+    <div class="fieldrow">
+        <label>개인/법인 선택</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="type" value="개인" checked>
+            개인
+          </label>
+          <label>
+            <input type="radio" name="type" value="법인">
+            법인
+          </label>
+        </div>
+      </div>
+      <label>성명(회사명)
+        <input type="text" name="name" placeholder="성명(회사명)을 입력하세요." required>
+      </label>
+      <label>연락처
+        <input type="tel" name="phone" placeholder="연락처를 입력하세요." required>
+      </label>
+      <label>이메일
+        <input type="email" name="email" placeholder="이메일을 입력하세요." required>
+      </label>
+      <label>지역
+        <input type="text" name="region" placeholder="지역을 입력하세요.">
+      </label>
+      <label>문의사항
+        <textarea name="message" rows="6" placeholder="문의사항을 입력하세요."></textarea>
+      </label>
+      <button class="btn-primary" type="submit">제출하기</button>
+    </form>
+  </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <address class="footer-info">
+        <p><strong>법인명</strong> : 주식회사 넥씽</p>
+        <p><strong>대표이사</strong> : 장인창</p>
+        <p><strong>사업자등록번호</strong> : 585-86-02444</p>
+        <p><strong>주소(본사)</strong> : 서울특별시 금천구 가산디지털1로 146, 대륭테크노타운22차 905호</p>
+        <p><strong>주소(R&amp;D)</strong> : 서울특별시 강남구 삼성로 531, 고운빌딩 4층</p>
+        <p><strong>고객센터</strong> : 02-2059-1177 (연중무휴)</p>
+      </address>
+      <div class="callout">
+        <div class="call-title">문의사항</div>
+        <div class="call-number">02-2059-1177</div>
+        <div class="call-site">www.nexthing.co.kr</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
